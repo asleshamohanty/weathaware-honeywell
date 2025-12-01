@@ -1,82 +1,103 @@
-WeathAware – AI-Driven Pre-Flight Weather Intelligence Platform
-Overview
+# WeathAware – AI-Driven Pre-Flight Weather Intelligence Platform
+Honeywell x MITB Hackathon - Top 25 out of 250+ teams
+https://www.linkedin.com/feed/update/urn:li:activity:7385927362233757696/
 
-WeathAware is an interactive aviation safety platform designed to simplify and enhance pre-flight planning for pilots. Built during the HackSpace Hackathon (25–27 Sept) organized by SDG CLUB–MIT BLR & MITB ACM Student Chapter, and powered by Honeywell Technologies, the project ranked Top 25 out of 250+ teams.
+## 1. Overview
 
-Under the theme Design of Weather Services Summary, our team focused on solving one of the most critical challenges in aviation: making pre-flight weather briefings accurate, fast, and pilot-friendly.
+WeathAware is an interactive aviation safety platform designed to simplify and enhance pre-flight planning for pilots.
+Built during the HackSpace Hackathon (25–27 Sept) organized by SDG CLUB–MIT BLR & MITB ACM Student Chapter and powered by Honeywell Technologies, the project ranked Top 25 out of 250+ teams.
 
-Problem Statement
+Under the theme "Design of Weather Services Summary", our team focused on solving one of the most critical challenges in aviation:
+making pre-flight weather briefings accurate, fast, intelligent, and pilot-friendly.
 
-Pilots face significant cognitive load during pre-flight planning due to the large volume and complexity of METARs, TAFs, NOTAMs, PIREPs, weather charts, and hazard warnings. Traditional tools are either fragmented or lack AI capabilities to decode, summarize, and provide real-time hazard intelligence.
+## 2. Problem Statement
 
-Even small oversights in these coded reports can escalate into serious operational risks.
+Pilots face significant cognitive load during pre-flight planning due to the extensive volume and complexity of:
 
-WeathAware addresses this gap through an integrated, AI-powered platform that automates decoding, hazard detection, mapping, and reporting—giving pilots clear, actionable insights at a glance.
+METARs
 
-Key Features
-1. Interactive Weather & Hazard Map
+TAFs
 
-Leaflet-based map interface
+NOTAMs
+
+PIREPs
+
+Weather charts
+
+Airspace restrictions
+
+Hazard warnings
+
+Traditional systems often lack AI-driven decoding or real-time risk detection. Even small oversights in these coded reports can escalate into operational risks.
+
+WeathAware solves this by automating decoding, hazard detection, mapping, and briefing generation — delivering clear, actionable insights at a glance.
+
+## 3. Key Features
+### 3.1 Interactive Weather & Hazard Map
+
+Leaflet-based global map
 
 Live aviation weather layers
 
-NOTAM and SIGMET polygons rendered dynamically
+Dynamic NOTAM & SIGMET polygons
 
-Clear visualization of hazards along the flight route
+Route-wise hazard visualization
 
-2. Intelligent Route Module
+### 3.2 Intelligent Route Module
 
-Flight path overlays on global maps
+Flight path overlay with geospatial mapping
 
-Hazard polygons generated along route segments
+Hazard polygons along track
 
-Real-time spatial correlation between route and weather risks
+Real-time correlation between route and weather risks
 
-3. AI/ML Weather Intelligence
+### 3.3 AI/ML Weather Intelligence
 
-METAR and TAF decoding into plain-language insights
+METAR & TAF decoding into natural language
 
 Weather anomaly detection
 
-Automated hazard alerts (icing, turbulence, thunderstorms, low visibility)
+Automated alerts for icing, turbulence, low visibility, thunderstorms
 
-Proactive warnings for operational risk
+Proactive operational risk insights
 
-4. Pilot Fatigue Risk Monitoring
+### 3.4 Pilot Fatigue Risk Monitoring
 
 Automated checks for 48-hour rest rule compliance
 
-Fatigue alerts based on pilot schedule and flight history
+Fatigue risk alerts based on pilot history
 
-Integrated safety logic following regulatory best practices
+Safety logic adapted from aviation regulations
 
-5. Pre-Flight Decision Support System
+### 3.5 Pre-Flight Decision Support System
 
-Single dashboard combining weather, NOTAMs, route hazards, and alerts
+Unified dashboard: weather, NOTAMs, route hazards, alerts
 
-Auto-generated pre-flight briefing summaries
+Auto-generated briefing summaries
 
-Professional-grade full technical reports for mission planning
+Detailed technical reports for mission planning
 
-6. Flight History & Schedule Manager
+### 3.6 Flight History & Schedule Manager
 
-Track past and upcoming flights
+Track past & upcoming flights
 
-Manage schedules and identify risk-prone operational patterns
+Quick schedule visualization
 
-7. Advanced Weather Metrics
+Detect operational risk patterns
 
-Wind speed and direction
+### 3.7 Advanced Weather Metrics
+
+Wind
 
 Visibility
 
 Cloud ceiling
 
-Turbulence estimation
+Turbulence estimates
 
-Precipitation indicators
+Precipitation
 
-Tech Stack
+## 4. Tech Stack
 Frontend
 
 React
@@ -91,43 +112,51 @@ Backend
 
 FastAPI (Python)
 
-Aviation Weather and NOTAM APIs
+Aviation Weather APIs & NOTAM APIs
 
-AI powered by Google Gemini 2.5 Flash
+AI: Google Gemini 2.5 Flash
 
-Database & Auth
 
 PL/SQL
 
-Google OAuth Authentication
 
-Why WeathAware?
+## 5. Why WeathAware?
 
 Reduces pilot workload during mission-critical planning
 
-Provides unified access to live weather, NOTAMs, and route hazards
+Unifies live weather, NOTAMs, and hazard intelligence
 
-Converts coded aviation data into clear, actionable insights
+Converts coded aviation data into clear, actionable formats
 
-Enhances situational awareness and reduces risk
+Enhances situational awareness
 
-Provides an intuitive and modern interface suitable for real-world operations
+Designed for real-world pilot workflows
 
-Hackathon Context
+## 6. Hackathon Context
 
-This project was built in under 48 hours during HackSpace, where we collaborated with industry experts from Honeywell on aerospace and automation problems. The hackathon challenged our team to:
+Built in under 48 hours, this project was developed in collaboration with:
 
-rapidly analyze real aviation workflows
+Honeywell aerospace experts
 
-solve domain-specific challenges
+MIT faculty mentors
 
-design and implement a full-stack system under time pressure
+SDG CLUB – MIT BLR
 
-collaborate effectively as a team
+MITB ACM Student Chapter
 
-Our final solution placed in the Top 25 out of 250+ teams.
+The challenge taught our team to:
 
-Team
+Rapidly understand aviation operations
+
+Tackle domain-heavy real-world problems
+
+Build an end-to-end system under pressure
+
+Deliver a polished demo and technical report
+
+Our solution ranked Top 25 out of 250+ teams.
+
+## 7. Team
 
 Aslesha Mohanty
 
@@ -136,4 +165,3 @@ Naman Aryan
 Janhavi Bhattad
 
 Rudra Solanki
-
