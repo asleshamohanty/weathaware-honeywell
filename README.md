@@ -1,78 +1,139 @@
-✈ AT1 - Weather Briefing & Hazard Analysis System
-📖 Overview
+WeathAware – AI-Driven Pre-Flight Weather Intelligence Platform
+Overview
 
-Pilots preparing for flights must analyze METARs, TAFs, NOTAMs, and PIREPs before departure. These reports are highly coded, time-consuming to interpret, and easy to miss under pressure. Our system automates this process by fetching, decoding, and summarizing weather and airspace information into:
+WeathAware is an interactive aviation safety platform designed to simplify and enhance pre-flight planning for pilots. Built during the HackSpace Hackathon (25–27 Sept) organized by SDG CLUB–MIT BLR & MITB ACM Student Chapter, and powered by Honeywell Technologies, the project ranked Top 25 out of 250+ teams.
 
-⚡ A 5-line pre-flight summary (critical hazards + SIGMETs).
+Under the theme Design of Weather Services Summary, our team focused on solving one of the most critical challenges in aviation: making pre-flight weather briefings accurate, fast, and pilot-friendly.
 
-📄 A detailed 2-page report (comprehensive weather, hazards, restrictions, alternates).
+Problem Statement
 
-This ensures pilots receive clear, actionable, and prioritized information, reducing workload and improving safety.
+Pilots face significant cognitive load during pre-flight planning due to the large volume and complexity of METARs, TAFs, NOTAMs, PIREPs, weather charts, and hazard warnings. Traditional tools are either fragmented or lack AI capabilities to decode, summarize, and provide real-time hazard intelligence.
 
-🎯 Problem Statement
+Even small oversights in these coded reports can escalate into serious operational risks.
 
-Pilots face information overload when analyzing coded reports (METAR, TAF, NOTAMs, PIREPs). This increases risk of missing critical hazards (e.g., thunderstorms, turbulence, runway closures).
+WeathAware addresses this gap through an integrated, AI-powered platform that automates decoding, hazard detection, mapping, and reporting—giving pilots clear, actionable insights at a glance.
 
-Goal: Transform coded data into simplified, structured reports that highlight hazards, optimal altitudes, restrictions, and alternate airports.
+Key Features
+1. Interactive Weather & Hazard Map
 
-✅ Mandatory Features
+Leaflet-based map interface
 
-Summarization & Analysis
+Live aviation weather layers
 
-Decode METAR, TAF, NOTAMs, PIREPs into plain language.
+NOTAM and SIGMET polygons rendered dynamically
 
-Highlight key weather and operational insights.
+Clear visualization of hazards along the flight route
 
-Hazard Detection
+2. Intelligent Route Module
 
-Identify thunderstorms, turbulence, icing, low visibility, crosswinds, etc.
+Flight path overlays on global maps
 
-Flag critical SIGMETs.
+Hazard polygons generated along route segments
 
-Flight Level Analysis
+Real-time spatial correlation between route and weather risks
 
-Map hazards to altitudes.
+3. AI/ML Weather Intelligence
 
-Recommend optimal cruising altitude for safety.
+METAR and TAF decoding into plain-language insights
 
-Restriction Checks
+Weather anomaly detection
 
-Detect TFRs (Temporary Flight Restrictions).
+Automated hazard alerts (icing, turbulence, thunderstorms, low visibility)
 
-Flag runway closures or nav aid outages.
+Proactive warnings for operational risk
 
-Alternate Airport Suggestion
+4. Pilot Fatigue Risk Monitoring
 
-Suggest safe alternate airports for diversion.
+Automated checks for 48-hour rest rule compliance
 
-🌟 Optional (Recommended) Features
+Fatigue alerts based on pilot schedule and flight history
 
-Route-Wise Hazard Timeline
+Integrated safety logic following regulatory best practices
 
-Example: "Turbulence expected at FL310 between DEL–BOM."
+5. Pre-Flight Decision Support System
 
-Graphical Weather Snapshots
+Single dashboard combining weather, NOTAMs, route hazards, and alerts
 
-Map overlay with green = safe, red = hazard zones.
+Auto-generated pre-flight briefing summaries
 
-Fuel-Efficient Routing
+Professional-grade full technical reports for mission planning
 
-Suggest altitudes/routes that optimize fuel burn.
+6. Flight History & Schedule Manager
 
-Dynamic Alternate Airport Ranking
+Track past and upcoming flights
 
-Rank alternates based on:
+Manage schedules and identify risk-prone operational patterns
 
-Proximity
+7. Advanced Weather Metrics
 
-Weather suitability
+Wind speed and direction
 
-Runway availability
+Visibility
 
-Services (fuel, maintenance, customs)
+Cloud ceiling
 
-NOTAM Prioritization
+Turbulence estimation
 
-Classify into Critical vs Non-Critical for faster decision-making.
+Precipitation indicators
 
-🛠 Input & Output
+Tech Stack
+Frontend
+
+React
+
+TypeScript
+
+Tailwind CSS
+
+Leaflet.js
+
+Backend
+
+FastAPI (Python)
+
+Aviation Weather and NOTAM APIs
+
+AI powered by Google Gemini 2.5 Flash
+
+Database & Auth
+
+PL/SQL
+
+Google OAuth Authentication
+
+Why WeathAware?
+
+Reduces pilot workload during mission-critical planning
+
+Provides unified access to live weather, NOTAMs, and route hazards
+
+Converts coded aviation data into clear, actionable insights
+
+Enhances situational awareness and reduces risk
+
+Provides an intuitive and modern interface suitable for real-world operations
+
+Hackathon Context
+
+This project was built in under 48 hours during HackSpace, where we collaborated with industry experts from Honeywell on aerospace and automation problems. The hackathon challenged our team to:
+
+rapidly analyze real aviation workflows
+
+solve domain-specific challenges
+
+design and implement a full-stack system under time pressure
+
+collaborate effectively as a team
+
+Our final solution placed in the Top 25 out of 250+ teams.
+
+Team
+
+Aslesha Mohanty
+
+Naman Aryan
+
+Janhavi Bhattad
+
+Rudra Solanki
+
